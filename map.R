@@ -74,12 +74,6 @@ country_pop_rasters <- lapply(
         )
     }
 )
-crs_lambert <- "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +datum=WGS84 +units=m +no_defs"
-
-pop_change <- (
-    country_pop_rasters[[2]] - country_pop_rasters[[1]]
-) |>
-terra::project(crs_lambert)
 terra::plot(pop_change)
 get_categories <- function(x){
     terra::ifel(
