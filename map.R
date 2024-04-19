@@ -7,7 +7,7 @@ installed_libs <- libs %in% rownames(
     installed.packages()
 )
 
-if (any(installed_libraries == F)) {
+if (any(installed_libs == F)) {
     install.packages(
         libs[!installed_libs]
     )
