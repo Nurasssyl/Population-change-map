@@ -1,4 +1,7 @@
 # Population-change-map
+![image](https://github.com/Nurasssyl/Population-change-map/assets/86198307/9e163ca5-6b9d-4758-850f-6d94d011617b)
+
+
 I have made a map of the change in the population of Kazakhstan over the last 30 years of independence . 
 
 I developed this visualization using the R programming language using the libraries: tidyverse, giscoR, terra, tidyterra. 
@@ -18,3 +21,5 @@ Looking at this map, we can draw several conclusions:
 5. There has been a massive outflow of population in the north.
 
 6. Different population densities are noticeable.
+
+
